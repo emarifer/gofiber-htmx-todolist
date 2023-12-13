@@ -1,4 +1,4 @@
-# Go/Fiber to-do list app with user login and HTMx-powered frontend (Demo)
+# Go/Fiber🧬 to-do list app with user login and HTMx-powered frontend (Demo)
 
 A full-stack application using Golang's Fiber framework with session-based authentication. Once we are authenticated we can enter a view from which we can manage a list of tasks (list, update and delete). Requests to the backend are controlled by [</>htmx](https://htmx.org/) ([hypermedia](https://hypermedia.systems/) only).
 
@@ -14,7 +14,8 @@ On the other hand, the styling of the views is achieved through Tailwind CSS and
 
 Finally, minimal use of [_hyperscript](https://hyperscript.org/) is made to achieve the action of closing the alerts when they are displayed.
 
-***Notice***: this application is identical to that of a previous [repository](https://github.com/emarifer/flask-htmx-todolist) of mine, which is developed in Python/Flask instead of Go/Fiber, as in this case.
+>[!NOTE]
+> This application is identical to that of a previous [repository](https://github.com/emarifer/flask-htmx-todolist) of mine, which is developed in Python/Flask instead of Go/Fiber, as in this case.
 
 ---
 

@@ -57,7 +57,7 @@ func HandleViewCreatePage(c *fiber.Ctx) error {
 			return flash.WithError(c, fm).Redirect("/todo/list")
 		}
 
-		c.Redirect("/todo/list")
+		return c.Redirect("/todo/list")
 	}
 
 	return c.Render("todo/create", fiber.Map{
